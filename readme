@@ -1,6 +1,4 @@
 This project is about whether the randomized initialization of neural network layers changes the models. 
-What we are going to do:
-1. train several models from the same code and dataset, and the layers are initialized randomly. 
-        (The default initialization is random, following a uniform distribution.)
-2. load some pictures that are classified correctly on all the models. Using one of them to generate a adversarial attack of the first model,
-        and see whether the attack works on other models.
+Done:
+        1. train models: 2 TwoLayer FC, 2 ThreeLayer Conv, 2 AlexNet
+        2. code for non targeted adversarial attack and targeted adversarial sttack
