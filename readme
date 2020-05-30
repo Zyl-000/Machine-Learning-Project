@@ -1,4 +1,3 @@
-This project is about whether the randomized initialization of neural network layers changes the models. 
-Done:
-        1. train models: 2 TwoLayer FC, 2 ThreeLayer Conv, 2 AlexNet
-        2. code for non targeted adversarial attack and targeted adversarial sttack
+# 基于对抗攻击分析参数随机初始化对深度学习模型的影响
+## 王欣灏@NeverMore808 张誉泷@Zyl-000 叶炜宁@yeweining
+简介：以CIFAR-10上的分类任务为基础，根据对抗攻击样本来分析参数的随机初始化是否导致模型对任务的理解有所区别
